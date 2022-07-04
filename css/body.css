@@ -1,0 +1,41 @@
+
+.Rayito{
+    width: 30px;
+}
+
+h1 {
+    display: inline;
+    font-family: sans-serif;
+    color: #2c2723;
+}
+
+header {
+    background-color: rgb(47, 106, 255);
+    text-align: center;
+    padding: 15px;
+}
+
+nav {
+    background-color: rgb(43, 60, 214);
+    padding: 4px;
+}
+
+.fondo {
+   height: 200px;
+   width: 1366px;
+}
+
+p {
+    padding-left: 30px;
+    font-family: sans-serif;
+}
+
+a {
+    color: white;
+    padding: 5px;
+}
+
+
+body{
+    background-image: url(canva.png);
+}

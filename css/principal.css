@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.Rayito{
+    width: 30px;
+}
+
+body{
+    background-image: url(staring.jpg);
+}
+
+h1 {
+    display: inline;
+    font-family: sans-serif;
+    color: #2c2723;
+}
+
+header {
+    background-color: rgb(47, 106, 255);
+    text-align: center;
+    padding: 15px;
+}
+
+nav {
+    background-color: rgb(43, 60, 214);
+    padding: 4px;
+}
+
+.fondo {
+   height: 200px;
+   width: 1366px;
+}
+
+p {
+    padding-left: 30px;
+    font-family: sans-serif;
+}
+
+a {
+    color: white;
+    padding: 5px;
+}
+
+.opinion {
+    background-color: gray;
+    border: 10px solid #4b4b4b;
+    margin: 20px;
+    height: 400px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.container figure {
+    position: relative;
+    height: 250px;
+    width: 1500px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+    cursor: pointer;
+}
+
+.container figure img {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.container figure .capa {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.50);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.container figure:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+}
+
+.container figure:hover > .capa h3 {
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.container figure:hover > img {
+    transform: scale(1.3);
+}
+
+.container figure .capa h3 {
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 20px;
+}
+
+.container figure .capa p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+.container figure .capa button {
+    background-color: rgb(255, 55, 0);
+    color: white;
+    font-family: 'Mukta';
+    border-radius: 20px;
+    padding: 3px 10px 2px;
+    padding-left: 10px;
+    float: right;
+}
+
+
+
+
+h2 {
+    padding-left: 25px;
+    font-family: sans-serif;
+}
